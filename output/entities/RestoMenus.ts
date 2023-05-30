@@ -41,6 +41,12 @@ export class RestoMenus {
   })
   remeStatus: string | null;
 
+  @Column('character varying', {
+    name: 'reme_type',
+    nullable: true,
+  })
+  remeType: string | null;
+
   @Column('timestamp without time zone', {
     name: 'reme_modified_date',
     nullable: true,

@@ -38,6 +38,7 @@ export class RestoMenusService {
       remeName: restoMenu.remeName,
       remeDescription: restoMenu.remeDescription,
       remePrice: restoMenu.remePrice,
+      remeType: restoMenu.remeType,
       remeStatus: restoMenu.remeStatus,
       remeModifiedDate: new Date(),
     });
